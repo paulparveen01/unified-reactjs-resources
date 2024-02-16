@@ -1,0 +1,19 @@
+.pageNumbers {
+    list-style: none;
+    display: flex;
+}
+
+.pageNumbers li {
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pageNumbers li.active {
+    color: blue;
+}
+
+.pageNumbers li:hover {
+    color: red;
+}

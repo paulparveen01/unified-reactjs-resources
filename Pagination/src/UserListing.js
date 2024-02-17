@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useId } from 'react';
 import axios from 'axios'
-import "./style.css"
+import "./userListing.css"
 
 const navigatePages = (data, numOfPages, pageNum) => {
     const pageData = data.slice((pageNum-1)*numOfPages, pageNum*numOfPages)
@@ -33,7 +33,7 @@ export const UserListing = () => {
 
     return (
         <>
-            <table style={{width: "600px"}}>
+            <table>
                 <thead>
                 <tr>
                     <th>Id</th>

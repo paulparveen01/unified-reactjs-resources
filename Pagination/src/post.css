@@ -1,0 +1,63 @@
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  
+  thead th,
+  tfoot th {
+    font-family: "Rock Salt", cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    justify-content: center;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+
+table tr.table_row:hover {
+    background-color: gray;
+}
+
+.container-post {
+  display: flex;
+  margin: 50px;
+}
+.container-post .navigate {
+  width: 100%;
+}
+.container-post .post-comments {
+  width: 100%;
+}

@@ -18,6 +18,9 @@ export const Post = () => {
         })
     }, [pageNum])
 
+    /**
+     * Custom submit handler for click event.
+     */
     const onSubmitHandler = ()=>{
         setPageNum(pagerRef.current.value)
     }

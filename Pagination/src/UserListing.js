@@ -21,6 +21,7 @@ export const UserListing = () => {
             const data = await getUserData()
             setUserData(data)
         })()        
+        // return () => {}
     }, [])
 
     let dataLength = userData.length
